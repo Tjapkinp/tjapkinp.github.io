@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "7585a0074a9089de",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8736cfe319c9a94",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a19adf15ff3a5329",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tech/draft.Минимальный Linux для недо-сервера.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "draft.Минимальный Linux для недо-сервера"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a5531c2c6bc601c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "16d22b57c47a700b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6bb88aff717b86e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7a0ac98e395b8d73",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "299a6d35b548663e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c879516e5c26e9fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ac6bb30b69786b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fee943362a8bfa07",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "about/resume.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для resume"
+            }
+          },
+          {
+            "id": "2a20c684f371269f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "about/resume.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из resume"
+            }
+          },
+          {
+            "id": "e34bae8dbaee6090",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "63746babd00da19b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "about/resume.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура resume"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a19adf15ff3a5329",
+  "lastOpenFiles": [
+    "tech/Как я self-hosted NAS собирал.md",
+    "Cockpit.png",
+    "todolist.jpg",
+    "linux/Поварёная книга Linux-программиста.md",
+    "tech/Рождённый в СССР. Электроника БК-0010-01.md",
+    "server.jpg",
+    "linux/Каталог команд Linux.md",
+    "jellyfin.png",
+    "vikunja2.png",
+    "vikunja.png",
+    "immich.png",
+    "tech/draft.Про руководство и руководителей.md",
+    "\"draft.Минимальный.md",
+    "draft.Минимальный.md",
+    "tech/Чиню Xiaomi Electric Precision Screwdriver.md",
+    "tech/Чиню адаптер SATA-USB.md",
+    "images/bk-0010-01/it_works!.md",
+    "images/bk-0010-01",
+    "images",
+    "non-tech/Красноярск, июль 2025 г..md",
+    "non-tech/Пекин, октябрь 2024 г..md",
+    "monitor_game.jpg",
+    "it_works! 2.jpg",
+    "digger.jpg",
+    "tech/draft.Минимальный Linux для недо-сервера.md",
+    "posts/Привет!.md",
+    "images.md",
+    "non-tech/Астана, июль 2025 г..md",
+    "tech/Ремонт корпуса для жестких дисков 2.5.md",
+    "non-tech/Алматы, июль 2025 г..md",
+    "about/resume.md",
+    "linux-commands/atop.md",
+    "{{<.md",
+    "linux-commands/xargs.md",
+    "linux-commands/whois.md",
+    "linux-commands/uniq.md",
+    "linux-commands/tree.md",
+    "linux-commands",
+    "linux/commands",
+    "linux"
+  ]
+}
