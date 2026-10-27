@@ -3,7 +3,7 @@ title = "FPGA Engineering CV"
 date = 2026-10-27
 summary = "Senior FPGA / RTL Design Engineer — Xilinx FPGA/SoC, RTL optimization, digital interfaces, and embedded systems."
 description = "FPGA-focused professional CV of Pavel Tyapkin, with experience in RTL design, FPGA/SoC integration, hardware verification and digital communications."
-toc = true
+toc = false
 readTime = false
 autonumber = false
 math = false
@@ -21,7 +21,7 @@ draft = false
 Currently based in **Latin America** · Open to relocation and remote opportunities  
 [Download PDF CV (EN)](/files/cv/Pavel_Tyapkin_FPGA_EN.pdf) · [Email](mailto:tjapkinpavel@gmail.com) · [LinkedIn](https://www.linkedin.com/in/pavel-tyapkin-7530b4184/) · [Google Scholar](https://scholar.google.com/citations?user=iL0aztcAAAAJ&hl=en)
 
-**CV profiles:** [General](/en/about/resume/) · **FPGA Engineering** · [DSP / Research](/en/about/cv/dsp-research/)
+**CV profiles:** [General](/about/Pavel_Tyapkin_General_EN.md) · **FPGA Engineering** · [DSP / Research](/about/Pavel_Tyapkin_DSP_Research_EN.md)
 
 ## Professional Summary
 

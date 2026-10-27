@@ -3,7 +3,7 @@ title = "DSP / SDR & Communications Research CV"
 date = 2026-10-27
 summary = "DSP / SDR and Communications Research Engineer — signal processing, wireless and satellite communications, MATLAB, FPGA/SoC, and applied research."
 description = "Research-focused CV of Pavel Tyapkin, covering digital signal processing, interference mitigation, SDR/FPGA prototyping, and communications R&D."
-toc = true
+toc = false
 readTime = false
 autonumber = false
 math = false
@@ -21,7 +21,7 @@ draft = false
 Currently based in **Latin America** · Open to relocation and remote opportunities  
 [Download PDF CV (EN)](/files/cv/Pavel_Tyapkin_DSP_Research_EN.pdf) · [Email](mailto:tjapkinpavel@gmail.com) · [LinkedIn](https://www.linkedin.com/in/pavel-tyapkin-7530b4184/) · [Google Scholar](https://scholar.google.com/citations?user=iL0aztcAAAAJ&hl=en)
 
-**CV profiles:** [General](/en/about/resume/) · [FPGA Engineering](/en/about/cv/fpga/) · **DSP / Research**
+**CV profiles:** [General](/about/Pavel_Tyapkin_General_EN.md) · [FPGA Engineering](/about/Pavel_Tyapkin_FPGA_EN.md) · **DSP / Research**
 
 ## Professional Summary
 
