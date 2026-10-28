@@ -3,13 +3,13 @@ title = "FPGA Engineering CV"
 date = 2026-10-27
 summary = "Senior FPGA / RTL Design Engineer — Xilinx FPGA/SoC, RTL optimization, digital interfaces, and embedded systems."
 description = "FPGA-focused professional CV of Pavel Tyapkin, with experience in RTL design, FPGA/SoC integration, hardware verification and digital communications."
-toc = false
-readTime = false
-autonumber = false
-math = false
-showTags = false
-hideBackToTop = false
-draft = false
+toc=false
+readTime=false
+autonumber=false
+math=false
+showTags=false
+hideBackToTop=false
+draft=false
 +++
 
 # Pavel Tyapkin
