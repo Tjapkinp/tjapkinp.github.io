@@ -1,4 +1,4 @@
-# tjapkinp.github.io
+# paveltyapkin.github.io
 
 Sources of my static personal website hosted on GitHub Pages.
 
