@@ -1,0 +1,4 @@
+{{/* Existing Terminal partial is empty by default; load CSS only for homepage. */}}
+{{ if .IsHome }}
+<link rel="stylesheet" href="{{ "home.css" | relURL }}">
+{{ end }}

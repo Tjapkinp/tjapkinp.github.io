@@ -1,0 +1,34 @@
+/* Scoped homepage styles; no changes to Terminal's other pages. */
+.custom-home { max-width: 920px; margin: 0 auto; padding-bottom: 1rem; }
+.home-intro { padding: .5rem 0 1.8rem; }
+.home-prompt { font-size: .85rem; opacity: .65; margin-bottom: 1rem; }
+.custom-home h1 { font-size: clamp(1.65rem, 4vw, 2.4rem); line-height: 1.2; margin: 0 0 .8rem; }
+.custom-home .home-specialty { font-weight: 700; font-size: .95rem; line-height: 1.8; margin: 0 0 1.5rem; }
+.home-intro > p:not(.home-specialty) { max-width: 72ch; line-height: 1.75; margin: 0 0 1rem; }
+.home-actions { display: flex; flex-wrap: wrap; gap: .65rem; margin-top: 1.7rem; }
+.home-action { display: inline-flex; align-items: center; padding: .6rem .9rem; border: 1px solid currentColor; text-decoration: none; font-weight: 600; border-radius: 2px; }
+.home-action:hover, .home-action:focus-visible { background: var(--accent, #ffa86a); color: var(--background, #1d1e20); text-decoration: none; }
+.home-action-primary { background: var(--accent, #ffa86a); color: var(--background, #1d1e20); border-color: var(--accent, #ffa86a); }
+.home-section { margin: 1.3rem 0 2.5rem; }
+.custom-home .home-section h2 { font-size: 1.2rem; margin: 0 0 1.2rem; padding-bottom: .7rem; border-bottom: 1px solid currentColor; }
+.home-number { opacity: .65; margin-right: .4rem; }
+.home-categories { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
+.home-category { display: flex; flex-direction: column; gap: .6rem; padding: 1.1rem; border: 1px solid currentColor; text-decoration: none; min-width: 0; }
+.home-category:hover, .home-category:focus-visible { border-color: var(--accent, #ffa86a); text-decoration: none; }
+.home-category-title { font-weight: bold; color: var(--accent, #ffa86a); }
+.home-category-description { color: var(--foreground, inherit); opacity: .88; font-size: .86rem; line-height: 1.55; }
+.home-recent-list { list-style: none; margin: 0 0 .8rem; padding: 0; }
+.home-recent-list li { display: flex; align-items: baseline; gap: 1rem; padding: .55rem 0; border-bottom: 1px dashed currentColor; }
+.home-recent-list time { flex: 0 0 6.3rem; opacity: .62; font-size: .85rem; white-space: nowrap; }
+.home-recent-list a { min-width: 0; overflow-wrap: anywhere; }
+.home-all-posts { display: inline-block; margin-top: .8rem; }
+.home-link-groups { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+.custom-home .home-link-groups h3 { font-size: .9rem; margin: 0 0 .65rem; }
+.home-links { display: flex; flex-wrap: wrap; gap: .4rem .85rem; font-size: .88rem; line-height: 1.7; }
+.home-links a { white-space: nowrap; }
+@media (max-width: 700px) {
+  .home-categories, .home-link-groups { grid-template-columns: 1fr; }
+  .home-intro { padding-top: 0; }
+  .home-recent-list li { flex-direction: column; gap: .2rem; }
+  .home-recent-list time { flex-basis: auto; }
+}

@@ -1,0 +1,83 @@
+{{ define "main" }}
+{{ $ru := eq .Site.Language.Lang "ru" }}
+{{ $base := .Site.Home.RelPermalink }}
+<main class="custom-home">
+  <section class="home-intro" aria-labelledby="home-title">
+    <div class="home-prompt" aria-hidden="true">$ whoami</div>
+    <h1 id="home-title">Pavel Tyapkin</h1>
+    <p class="home-specialty">Research Engineer <span aria-hidden="true">·</span> FPGA <span aria-hidden="true">·</span> DSP <span aria-hidden="true">·</span> Embedded Systems</p>
+    {{ if $ru }}
+      <p>Я инженер-разработчик и исследователь. Занимаюсь цифровой обработкой сигналов, FPGA/SoC и встраиваемыми системами.</p>
+      <p>Это мой технический блокнот и личный дневник: здесь собраны проекты, эксперименты, заметки о Linux, электронике, путешествиях и других интересных вещах.</p>
+    {{ else }}
+      <p>I'm a research engineer working with digital signal processing, FPGA/SoC and embedded systems.</p>
+      <p>This site is my engineering notebook and personal journal: projects, experiments, notes on Linux, electronics, travel and things I find interesting.</p>
+    {{ end }}
+    <nav class="home-actions" aria-label="{{ if $ru }}Основные ссылки{{ else }}Main links{{ end }}">
+      <a class="home-action home-action-primary" href="{{ "about/" | relLangURL }}">{{ if $ru }}Обо мне{{ else }}About me{{ end }}</a>
+      <a class="home-action" href="https://github.com/tjapkinp" rel="me noopener noreferrer" target="_blank">GitHub ↗</a>
+      <a class="home-action" href="https://www.linkedin.com/in/pavel-tyapkin-7530b4184/" rel="me noopener noreferrer" target="_blank">LinkedIn ↗</a>
+    </nav>
+  </section>
+
+  <section class="home-section" aria-labelledby="home-categories">
+    <h2 id="home-categories"><span class="home-number">01 /</span> {{ if $ru }}Разделы сайта{{ else }}Explore the site{{ end }}</h2>
+    <div class="home-categories">
+      <a class="home-category" href="{{ "tech/" | relLangURL }}">
+        <span class="home-category-title">{{ if $ru }}Техническое{{ else }}Technical{{ end }} <span aria-hidden="true">↗</span></span>
+        <span class="home-category-description">FPGA, DSP, SDR, embedded systems, {{ if $ru }}электроника и исследования{{ else }}electronics and research{{ end }}</span>
+      </a>
+      <a class="home-category" href="{{ "linux/" | relLangURL }}">
+        <span class="home-category-title">Linux <span aria-hidden="true">↗</span></span>
+        <span class="home-category-description">Linux, {{ if $ru }}настройка систем, железо и self-hosting{{ else }}system configuration, hardware and self-hosting{{ end }}</span>
+      </a>
+      <a class="home-category" href="{{ "non-tech/" | relLangURL }}">
+        <span class="home-category-title">{{ if $ru }}Нетехническое{{ else }}Non-technical{{ end }} <span aria-hidden="true">↗</span></span>
+        <span class="home-category-description">{{ if $ru }}Путешествия, фотографии и личные заметки{{ else }}Travel, photography and personal notes{{ end }}</span>
+      </a>
+    </div>
+  </section>
+
+  {{/* Show only content belonging to the current language. Existing English section
+       may be empty: no links to Russian-language posts are invented. */}}
+  {{ $recent := where .Site.RegularPages "Section" "in" (slice "tech" "non-tech" "linux") }}
+  {{ $recent = where $recent "Draft" false }}
+  {{ $recent = first 5 (sort $recent "Date" "desc") }}
+  {{ with $recent }}
+    <section class="home-section" aria-labelledby="home-recent">
+      <h2 id="home-recent"><span class="home-number">02 /</span> {{ if $ru }}Последние публикации{{ else }}Recent posts{{ end }}</h2>
+      <ul class="home-recent-list">
+      {{ range . }}
+        <li>
+          {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>{{ end }}
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+      {{ end }}
+      </ul>
+      <a class="home-all-posts" href="{{ "tech/" | relLangURL }}">{{ if $ru }}Смотреть технические публикации{{ else }}Browse technical posts{{ end }} ↗</a>
+    </section>
+  {{ end }}
+
+  <section class="home-section home-elsewhere" aria-labelledby="home-elsewhere">
+    <h2 id="home-elsewhere"><span class="home-number">{{ if $recent }}03{{ else }}02{{ end }} /</span> {{ if $ru }}В сети{{ else }}Elsewhere{{ end }}</h2>
+    <div class="home-link-groups">
+      <div><h3>{{ if $ru }}Профессиональное{{ else }}Professional{{ end }}</h3><div class="home-links">
+        <a href="https://github.com/tjapkinp" rel="me noopener noreferrer" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/pavel-tyapkin-7530b4184/" rel="me noopener noreferrer" target="_blank">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?hl=ru&amp;user=iL0aztcAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="me noopener noreferrer" target="_blank">Google Scholar</a>
+        <a href="https://orcid.org/0009-0007-3632-9632" rel="me noopener noreferrer" target="_blank">ORCID</a>
+      </div></div>
+      <div><h3>{{ if $ru }}Проекты и медиа{{ else }}Projects &amp; media{{ end }}</h3><div class="home-links">
+        <a href="https://t.me/ps_tyapkin" rel="noopener noreferrer" target="_blank">Telegram</a>
+        <a href="https://makerworld.com/ru/@ps_tyapkin" rel="noopener noreferrer" target="_blank">MakerWorld</a>
+        <a href="https://www.printables.com/@ps_tyapkin_5047358" rel="noopener noreferrer" target="_blank">Printables</a>
+      </div></div>
+      <div><h3>{{ if $ru }}Связь и подписка{{ else }}Contact &amp; feeds{{ end }}</h3><div class="home-links">
+        <a href="mailto:pstyapkin@proton.me">Email</a>
+        <a href="https://discord.com/users/tjapkinp" rel="noopener noreferrer" target="_blank">Discord</a>
+        {{ with .OutputFormats.Get "RSS" }}<a href="{{ .RelPermalink }}">RSS</a>{{ end }}
+      </div></div>
+    </div>
+  </section>
+</main>
+{{ end }}
