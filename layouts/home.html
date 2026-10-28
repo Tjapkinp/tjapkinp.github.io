@@ -1,6 +1,5 @@
 {{ define "main" }}
 {{ $ru := eq .Site.Language.Lang "ru" }}
-{{ $base := .Site.Home.RelPermalink }}
 <main class="custom-home">
   <section class="home-intro" aria-labelledby="home-title">
     <div class="home-prompt" aria-hidden="true">$ whoami</div>
@@ -23,24 +22,35 @@
   <section class="home-section" aria-labelledby="home-categories">
     <h2 id="home-categories"><span class="home-number">01 /</span> {{ if $ru }}Разделы сайта{{ else }}Explore the site{{ end }}</h2>
     <div class="home-categories">
-      <a class="home-category" href="{{ "tech/" | relLangURL }}">
-        <span class="home-category-title">{{ if $ru }}Техническое{{ else }}Technical{{ end }} <span aria-hidden="true">↗</span></span>
-        <span class="home-category-description">FPGA, DSP, SDR, embedded systems, {{ if $ru }}электроника и исследования{{ else }}electronics and research{{ end }}</span>
+      <a class="home-category" href="{{ "projects/" | relLangURL }}">
+        <span class="home-category-title">{{ if $ru }}Проекты{{ else }}Projects{{ end }} <span aria-hidden="true">↗</span></span>
+        <span class="home-category-description">{{ if $ru }}Мои разработки, исследования и результаты экспериментов{{ else }}My developments, research and experimental results{{ end }}</span>
+      </a>
+      <a class="home-category" href="{{ "engineering/" | relLangURL }}">
+        <span class="home-category-title">{{ if $ru }}Инженерия{{ else }}Engineering{{ end }} <span aria-hidden="true">↗</span></span>
+        <span class="home-category-description">FPGA, DSP, SDR, embedded systems, {{ if $ru }}электроника и ремонт{{ else }}electronics and repairs{{ end }}</span>
       </a>
       <a class="home-category" href="{{ "linux/" | relLangURL }}">
         <span class="home-category-title">Linux <span aria-hidden="true">↗</span></span>
-        <span class="home-category-description">Linux, {{ if $ru }}настройка систем, железо и self-hosting{{ else }}system configuration, hardware and self-hosting{{ end }}</span>
+        <span class="home-category-description">{{ if $ru }}Команды, настройка систем и администрирование{{ else }}Commands, system configuration and administration{{ end }}</span>
       </a>
-      <a class="home-category" href="{{ "non-tech/" | relLangURL }}">
-        <span class="home-category-title">{{ if $ru }}Нетехническое{{ else }}Non-technical{{ end }} <span aria-hidden="true">↗</span></span>
-        <span class="home-category-description">{{ if $ru }}Путешествия, фотографии и личные заметки{{ else }}Travel, photography and personal notes{{ end }}</span>
+      <a class="home-category" href="{{ "travel/" | relLangURL }}">
+        <span class="home-category-title">{{ if $ru }}Путешествия{{ else }}Travel{{ end }} <span aria-hidden="true">↗</span></span>
+        <span class="home-category-description">{{ if $ru }}Поездки, фотографии и впечатления{{ else }}Journeys, photography and impressions{{ end }}</span>
+      </a>
+      <a class="home-category" href="{{ "notes/" | relLangURL }}">
+        <span class="home-category-title">{{ if $ru }}Заметки{{ else }}Notes{{ end }} <span aria-hidden="true">↗</span></span>
+        <span class="home-category-description">{{ if $ru }}Личные истории, размышления и наблюдения{{ else }}Personal stories, thoughts and observations{{ end }}</span>
+      </a>
+      <a class="home-category" href="{{ "about/" | relLangURL }}">
+        <span class="home-category-title">{{ if $ru }}Обо мне{{ else }}About{{ end }} <span aria-hidden="true">↗</span></span>
+        <span class="home-category-description">{{ if $ru }}Опыт, публикации и резюме{{ else }}Experience, publications and CV{{ end }}</span>
       </a>
     </div>
   </section>
 
-  {{/* Show only content belonging to the current language. Existing English section
-       may be empty: no links to Russian-language posts are invented. */}}
-  {{ $recent := where .Site.RegularPages "Section" "in" (slice "tech" "non-tech" "linux") }}
+  {{/* .Site.RegularPages is scoped to the current language. About/CV are excluded. */}}
+  {{ $recent := where .Site.RegularPages "Section" "in" (slice "projects" "engineering" "linux" "travel" "notes") }}
   {{ $recent = where $recent "Draft" false }}
   {{ $recent = first 5 (sort $recent "Date" "desc") }}
   {{ with $recent }}
@@ -54,7 +64,7 @@
         </li>
       {{ end }}
       </ul>
-      <a class="home-all-posts" href="{{ "tech/" | relLangURL }}">{{ if $ru }}Смотреть технические публикации{{ else }}Browse technical posts{{ end }} ↗</a>
+      <a class="home-all-posts" href="#home-categories">{{ if $ru }}Все разделы сайта{{ else }}Explore all sections{{ end }} ↗</a>
     </section>
   {{ end }}
 
