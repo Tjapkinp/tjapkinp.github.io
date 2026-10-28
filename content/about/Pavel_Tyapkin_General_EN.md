@@ -3,13 +3,13 @@ title = "General"
 date = 2026-10-27
 summary = "FPGA / DSP Engineer and Researcher specializing in SDR, wireless communications, embedded systems, and applied signal processing."
 description = "Professional experience, technical expertise, research, publications, and education of Pavel Tyapkin."
-toc = true
-readTime = false
-autonumber = false
-math = false
-showTags = false
-hideBackToTop = false
-draft = false
+toc=false
+readTime=false
+autonumber=false
+math=false
+showTags=false
+hideBackToTop=false
+draft=false
 +++
 
 # Pavel Tyapkin
