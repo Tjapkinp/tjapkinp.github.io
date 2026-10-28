@@ -19,7 +19,7 @@ draft = false
 ## Разбор
 Для понимания приведу фотографию уже разобранной отвёртки.
 
-![target](/images/0.xiaomi_screwdriver.jpg)
+![target](/ru/engineering/electronics/repairs/xiaomi-screwdriver/0.xiaomi_screwdriver.jpg)
 
 В целом, ничего сложного:
 1. Снимается пластиковая накладка разъема USB-C (1),

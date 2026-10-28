@@ -10,7 +10,7 @@ draft = false
 +++
 
 Сразу по прибытию, аэропорт Красноярска встречает гостей макетом космического аппарата Экспресс-АМ8, прикрепленным к потолку здания. 
-![](/images/Krasnoyarsk/satellite.jpg)
+![](/ru/travel/krasnoyarsk-2025/satellite.jpg)
 
 Из аэропорта до города добираться ~40 минут на автобусе (25 минут на такси).
 Город - огромный, без транспорта (такси, автобусы) уже не обойтись.
@@ -28,57 +28,57 @@ draft = false
 # Фотографии
 ___
 Вид на Енисей с центральной набережной Красноярска: 
-![](/images/Krasnoyarsk/DSC_5267.JPG)
+![](/ru/travel/krasnoyarsk-2025/DSC_5267.JPG)
 
 
 Виноградовский мост:
-![](/images/Krasnoyarsk/DSC_5258.jpg)
+![](/ru/travel/krasnoyarsk-2025/DSC_5258.jpg)
 
 
 Арка 375-летия Красноярска:
-![](/images/Krasnoyarsk/DSC_5264.jpg)
+![](/ru/travel/krasnoyarsk-2025/DSC_5264.jpg)
 
 
-![](/images/Krasnoyarsk/DSC_5266.JPG)
+![](/ru/travel/krasnoyarsk-2025/DSC_5266.JPG)
 
 
-![](/images/Krasnoyarsk/DSC_5286.jpg)
+![](/ru/travel/krasnoyarsk-2025/DSC_5286.jpg)
 
 
-![](/images/Krasnoyarsk/IMG_20250725_074634.jpg)
+![](/ru/travel/krasnoyarsk-2025/IMG_20250725_074634.jpg)
 
 ### Национальный парк "Красноярские столбы"
 
 
-![](/images/Krasnoyarsk/kr_mountains_2.jpg)
+![](/ru/travel/krasnoyarsk-2025/kr_mountains_2.jpg)
 
 
-![](/images/Krasnoyarsk/kr_mountains_0.jpg)
+![](/ru/travel/krasnoyarsk-2025/kr_mountains_0.jpg)
 
 
-![](/images/Krasnoyarsk/kr_mountains_1.jpg)
+![](/ru/travel/krasnoyarsk-2025/kr_mountains_1.jpg)
 
 
-![](/images/Krasnoyarsk/kr_mountains_3.jpg)
+![](/ru/travel/krasnoyarsk-2025/kr_mountains_3.jpg)
 
 
 Скала "Перья":
-![](/images/Krasnoyarsk/kr_feathers.jpg)
+![](/ru/travel/krasnoyarsk-2025/kr_feathers.jpg)
 
 
-![](/images/Krasnoyarsk/kr_mountains_5.jpg)
+![](/ru/travel/krasnoyarsk-2025/kr_mountains_5.jpg)
 
 
-![](/images/Krasnoyarsk/kr_mountains_4.jpg)
+![](/ru/travel/krasnoyarsk-2025/kr_mountains_4.jpg)
 
 
-![](/images/Krasnoyarsk/kr_mountains_5.jpg)
+![](/ru/travel/krasnoyarsk-2025/kr_mountains_5.jpg)
 
 
 Получил от [Дианы](https://t.me/maukoart) вот такую красоту:
 
 
-![](/images/Krasnoyarsk/paint_pathologic.jpg)
+![](/ru/travel/krasnoyarsk-2025/paint_pathologic.jpg)
 
 
 Как говорится: кто знает, тот поймёт. :)

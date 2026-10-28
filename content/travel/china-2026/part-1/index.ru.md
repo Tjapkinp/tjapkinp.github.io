@@ -44,14 +44,14 @@ draft = false
 По покрытию: за все время поездки по маршруту расстоянием 2000 км связь ниже 5G не опускалась (даже на поезде и в метро). В городе — почти всегда 5GA. 
 
 Что по скоростям? Прикрепляю скриншот Speedtest из метрополитена (!!!) Чэнду. Скорости мы можете видеть сами. 
-![](/images/China_2026/China_2026_0.jpg)
+![](/ru/travel/china-2026/part-1/China_2026_0.jpg)
 Интернет достаточно свободный (мне, как и вам последнее время есть с чем сравнить — это просто несравнимо), а с разного рода "ускорителями" — ещё и с дополнительными возможностями.
 Как-то так.
 
 
 Из необычного: А вы когда-нибудь пробовали Oreo со вкусом грибов? :D
 
-![](/images/China_2026/China_2026_1.jpg)
+![](/ru/travel/china-2026/part-1/China_2026_1.jpg)
 
 
 ## Пекин.
@@ -87,40 +87,40 @@ draft = false
 ## Фотографии:
 
 
-![](/images/China_2026/China_2026_2.jpg)
+![](/ru/travel/china-2026/part-1/China_2026_2.jpg)
 
 
-![](/images/China_2026/China_2026_3.jpg)
+![](/ru/travel/china-2026/part-1/China_2026_3.jpg)
 
 
-![](/images/China_2026/China_2026_4.jpg)
+![](/ru/travel/china-2026/part-1/China_2026_4.jpg)
 
 
-![](/images/China_2026/China_2026_5.jpg)
+![](/ru/travel/china-2026/part-1/China_2026_5.jpg)
 
 
-![](/images/China_2026/China_2026_6.jpg)
+![](/ru/travel/china-2026/part-1/China_2026_6.jpg)
 
 
-![](/images/China_2026/China_2026_7.jpg)
+![](/ru/travel/china-2026/part-1/China_2026_7.jpg)
 
 
-![](/images/China_2026/China_2026_8.jpg)
+![](/ru/travel/china-2026/part-1/China_2026_8.jpg)
 
 
-![](/images/China_2026/China_2026_9.jpg)
+![](/ru/travel/china-2026/part-1/China_2026_9.jpg)
 
 
-![](/images/China_2026/China_2026_10.jpg)
+![](/ru/travel/china-2026/part-1/China_2026_10.jpg)
 
 
-![](/images/China_2026/China_2026_11.jpg)
+![](/ru/travel/china-2026/part-1/China_2026_11.jpg)
 
 
-![](/images/China_2026/China_2026_12.jpg)
+![](/ru/travel/china-2026/part-1/China_2026_12.jpg)
 
 
-![](/images/China_2026/China_2026_13.jpg)
+![](/ru/travel/china-2026/part-1/China_2026_13.jpg)
 
 
 ## Что дальше?

@@ -29,42 +29,42 @@ draft = false
 ## Фотографии
 
 Пекинская телебашня:
-![](/images/Beijing_2024/Beijing_2024_0.jpg)
+![](/ru/travel/beijing-2024/Beijing_2024_0.jpg)
 
 
 Одна из (вроде бы) башен городской стены Пекина эпохи династии Мин:
-![](/images/Beijing_2024/Beijing_2024_1.jpg)
+![](/ru/travel/beijing-2024/Beijing_2024_1.jpg)
 
 Стену, кстати, добровольно восстанавливали сами жители Пекина, пожертвовав более 500 тысяч кирпичей.
-![](/images/Beijing_2024/Beijing_2024_2.jpg)
+![](/ru/travel/beijing-2024/Beijing_2024_2.jpg)
 
 
 Тоннель Пекинского метрополитена:
-![](/images/Beijing_2024/Beijing_2024_3.jpg)
+![](/ru/travel/beijing-2024/Beijing_2024_3.jpg)
 
 
 "Храм Неба":
-![](/images/Beijing_2024/Beijing_2024_4.jpg)
+![](/ru/travel/beijing-2024/Beijing_2024_4.jpg)
 
 
 
-![](/images/Beijing_2024/Beijing_2024_5.jpg)
+![](/ru/travel/beijing-2024/Beijing_2024_5.jpg)
 
 
-![](/images/Beijing_2024/Beijing_2024_6.jpg)
+![](/ru/travel/beijing-2024/Beijing_2024_6.jpg)
 
 
-![](/images/Beijing_2024/Beijing_2024_7.jpg)
+![](/ru/travel/beijing-2024/Beijing_2024_7.jpg)
 
 
-![](/images/Beijing_2024/Beijing_2024_8.jpg)
+![](/ru/travel/beijing-2024/Beijing_2024_8.jpg)
 
 
 Пекинская "Горбушка": рынок электроники Чжунгуаньцунь:
-![](/images/Beijing_2024/Beijing_2024_9.jpg)
+![](/ru/travel/beijing-2024/Beijing_2024_9.jpg)
 
 
 Магазин товаров из России. Неожиданно много товаров в ассортименте:
-![](/images/Beijing_2024/Beijing_2024_10.jpg)
+![](/ru/travel/beijing-2024/Beijing_2024_10.jpg)
 
-![](/images/Beijing_2024/Beijing_2024_11.jpg)
+![](/ru/travel/beijing-2024/Beijing_2024_11.jpg)
